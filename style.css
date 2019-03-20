@@ -1,0 +1,36 @@
+.container{
+  margin-top: 10px;
+}
+
+.item{
+  display: inline-block;
+  position: relative;
+}
+
+.selected{
+  font-size: 25px;
+  color:	#EEEEEE;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.discount{
+  color:	black;
+  height: 25px;
+  font-size: 25px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/*--classe nn può essere un numero e basta?--*/
+.discount.thirty{
+  background-color: green;
+}
+.discount.five{
+  background-color: red;
+}
+.selected:hover{
+  color: red;
+}
